@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Finition Intérieur Élégance</title>
+  <meta name="description" content="Services de finition intérieure : construction résidentielle, commerciale et rénovation en Estrie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: { DEFAULT: '#2D4A3E', deep: '#1A3229' },
+            charcoal: '#3D3D3D',
+            taupe: { DEFAULT: '#B5A089', light: '#CDBFAB' },
+            cream: '#FAFAF7',
+            'warm-white': '#FFFDF9',
+          },
+          fontFamily: {
+            display: ['Sora', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-cream font-body text-[var(--text-dark)]">
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav nav-dark" id="nav">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/images/logo.png" alt="Finition Intérieur Élégance" style="height:48px; width:auto; border-radius:6px;">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html" class="nav-cta">Soumission gratuite</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="bg-[var(--forest-deep)] pt-32 pb-20 px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <p class="font-display text-xs font-600 tracking-[0.2em] uppercase text-[var(--taupe)] mb-4">Ce qu'on fait</p>
+      <h1 class="f-display text-cream" style="font-size: clamp(2.5rem, 5vw, 4rem);">Nos services</h1>
+      <p class="text-white/60 text-lg mt-4 max-w-xl">Entrepreneur général spécialisé en finition intérieure pour les constructions résidentielles, commerciales et les projets de rénovation.</p>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE 1: RÉSIDENTIEL ========== -->
+  <section class="py-20 lg:py-28 px-6 lg:px-8" id="residentiel">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="reveal-left">
+        <div class="rounded-2xl overflow-hidden">
+          <img src="assets/images/chantier-residentiel.JPG" alt="Construction résidentielle" class="w-full h-[400px] object-cover">
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--forest)] to-[#3D5A4E] flex items-center justify-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FAFAF7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <p class="font-display text-xs font-600 tracking-[0.15em] uppercase text-[var(--taupe)]">01 / Résidentiel</p>
+        </div>
+        <h2 class="font-display text-3xl lg:text-4xl font-700 tracking-tight leading-tight">Construction résidentielle</h2>
+        <p class="text-[var(--text-muted)] text-lg mt-6 leading-relaxed">
+          Finition intérieure complète pour maisons neuves. Notre équipe assure un travail de qualité dans les moindres détails.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Installation de moulures, cadrages et plinthes</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Pose de portes intérieures et extérieures</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Escaliers, rampes et garde-corps</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Revêtements de plancher</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Menuiserie sur mesure et ébénisterie</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6 lg:px-8"><div class="border-t border-[var(--border)]"></div></div>
+
+  <!-- ========== SERVICE 2: COMMERCIAL ========== -->
+  <section class="py-20 lg:py-28 px-6 lg:px-8" id="commercial">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="reveal-left order-2 lg:order-1">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--forest)] to-[#3D5A4E] flex items-center justify-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FAFAF7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4a2 2 0 012 2v9a2 2 0 01-2 2H6"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <p class="font-display text-xs font-600 tracking-[0.15em] uppercase text-[var(--taupe)]">02 / Commercial</p>
+        </div>
+        <h2 class="font-display text-3xl lg:text-4xl font-700 tracking-tight leading-tight">Construction commerciale</h2>
+        <p class="text-[var(--text-muted)] text-lg mt-6 leading-relaxed">
+          Complexes multi-logements, immeubles commerciaux — finition de qualité respectant les échéanciers les plus serrés.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Finition intérieure de complexes multi-logements</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Immeubles commerciaux et espaces de bureau</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Respect des échéanciers et normes du bâtiment</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Gestion de projets à grande échelle</span>
+          </li>
+        </ul>
+      </div>
+      <div class="reveal-right order-1 lg:order-2">
+        <div class="rounded-2xl overflow-hidden">
+          <img src="assets/images/projet-commercial.JPG" alt="Projet commercial" class="w-full h-[400px] object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="max-w-7xl mx-auto px-6 lg:px-8"><div class="border-t border-[var(--border)]"></div></div>
+
+  <!-- ========== SERVICE 3: RÉNOVATION ========== -->
+  <section class="py-20 lg:py-28 px-6 lg:px-8" id="renovation">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="reveal-left">
+        <div class="rounded-2xl overflow-hidden">
+          <img src="assets/images/rendu-condos.JPG" alt="Projet de rénovation" class="w-full h-[400px] object-cover">
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--forest)] to-[#3D5A4E] flex items-center justify-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FAFAF7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <p class="font-display text-xs font-600 tracking-[0.15em] uppercase text-[var(--taupe)]">03 / Rénovation</p>
+        </div>
+        <h2 class="font-display text-3xl lg:text-4xl font-700 tracking-tight leading-tight">Rénovation</h2>
+        <p class="text-[var(--text-muted)] text-lg mt-6 leading-relaxed">
+          Transformez votre espace. Rénovations résidentielles et commerciales avec le souci du détail qui fait notre réputation.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Rénovation complète d'intérieurs</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Mise à jour de cuisines et salles de bain</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Remplacement de portes et fenêtres</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="var(--forest)" class="mt-0.5 flex-shrink-0"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span class="text-[var(--text-muted)]">Projets résidentiels et commerciaux</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="bg-[var(--forest)] py-20 lg:py-24 px-6 lg:px-8 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-[var(--taupe)]/5 rounded-full -translate-y-1/2 translate-x-1/3"></div>
+    <div class="max-w-3xl mx-auto text-center relative z-10">
+      <h2 class="f-display text-cream reveal" style="font-size: clamp(2rem, 4vw, 3rem);">Un projet en tête?</h2>
+      <p class="text-[var(--text-light)] text-lg mt-6 reveal">Contactez-nous pour une soumission gratuite. Notre équipe se fera un plaisir de discuter de votre projet.</p>
+      <div class="flex flex-wrap justify-center gap-4 mt-10 reveal">
+        <a href="contact.html" class="btn btn-light">
+          Demander une soumission
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="tel:8198321155" class="btn" style="background: rgba(250,250,247,0.1); color: var(--cream);">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (819) 832-1155
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/images/logo.png" alt="Finition Intérieur Élégance" style="height:56px; width:auto; border-radius:8px; margin-bottom:1.5rem;">
+        <p class="text-[var(--text-light)] text-sm leading-relaxed max-w-xs">
+          Entrepreneur général spécialisé en finition dans les constructions résidentielles et commerciales en Estrie.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Navigation</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Services</p>
+        <ul class="footer-links">
+          <li><a href="services.html#residentiel">Résidentiel</a></li>
+          <li><a href="services.html#commercial">Commercial</a></li>
+          <li><a href="services.html#renovation">Rénovation</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Coordonnées</p>
+        <ul class="footer-links">
+          <li class="flex items-start gap-3">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="mt-1 flex-shrink-0 text-[var(--taupe)]"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="text-sm">61 chemin Godbout<br>Westbury, QC</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-shrink-0 text-[var(--taupe)]"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:8198321155" class="text-sm">(819) 832-1155</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="flex-shrink-0 text-[var(--taupe)]"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:finition-elegance@hotmail.com" class="text-sm">finition-elegance@hotmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Finition Intérieur Élégance. Tous droits réservés.</p>
+      <a href="https://www.facebook.com/p/Finition-Interieur-Elegance-100085764257416/" target="_blank" rel="noopener" class="flex items-center gap-2 hover:text-cream">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    // Nav
+    const nav = document.getElementById('nav');
+    const heroH = document.querySelector('section').offsetHeight;
+    window.addEventListener('scroll', () => {
+      const past = window.scrollY > heroH * 0.5;
+      nav.classList.toggle('scrolled', past);
+      nav.classList.toggle('nav-dark-off', past);
+    });
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => { toggle.classList.toggle('active'); links.classList.toggle('open'); });
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { toggle.classList.remove('active'); links.classList.remove('open'); }));
+
+    // GSAP
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.reveal').forEach((el, i) => {
+      gsap.to(el, { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out', delay: i % 3 * 0.1, scrollTrigger: { trigger: el, start: 'top 88%', once: true } });
+    });
+    gsap.utils.toArray('.reveal-left').forEach(el => {
+      gsap.to(el, { opacity: 1, x: 0, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 85%', once: true } });
+    });
+    gsap.utils.toArray('.reveal-right').forEach(el => {
+      gsap.to(el, { opacity: 1, x: 0, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 85%', once: true } });
+    });
+  </script>
+</body>
+</html>
